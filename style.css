@@ -1,0 +1,58 @@
+body {
+    background-color: #EDCB96;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Name {
+    background-color: blueviolet;
+    border-radius: 1rem;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: antiquewhite;
+    border-radius: 1em;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.historical {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.historical .text-dev {
+    flex: 1;
+}
+
+.historical img {
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+.Subjects {
+    border: 1em;
+    border-radius: 5px solid white;
+    display: flex;
+}
+.item{
+    flex:1145%;
+}
+
+@media (min-width: 600px) {
+    .item{
+        flex: 1145%;
+    }
+    body {
+        background-color: #EDCB96;
+    }
+    .Name {
+        display: flex;
+    }
+}
+
