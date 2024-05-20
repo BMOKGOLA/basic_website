@@ -8,28 +8,24 @@
 </head>
 <body>
     <style>
-        body {
-    background-color: #EDCB96;
-    font-size: medium;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.Name {
-    background-color: blueviolet;
-    border-radius: 1rem;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
+        @media(max-width:960px){
+            .mid-text{
+                float: right ! important;
+            }
+        }
+        body{
+            background-color: aqua;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
     </style>
-    <section>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-            <h1>Boitumelo Mokgola</h1>
+    <div>
+        <div class="container">
+
+        <div class="row"><h1>Boitumelo Mokgola</h1>
             <img src="Boitumelo Mokgola.png" width="250">
         </div>
-        <h2>Which city?</h2>
+        <h2>Which city?</h2> 
+        <div class="row">
             <div>
                 <img src="Cape Town.jpg" width="200">
             </div>
@@ -37,12 +33,9 @@
                 <p>I would like to visit Cape Town and go to Table Mountain. I would also love to visit Robben Island and experience the vineyards. The vineyards have good wine and food.</p>
             </div>
         </div>
-    </section>
-
-    <section>
+        <div class="row">
         <div class="container">
-            <div class="row">
-            <div class="col-4">
+        <div class="col-12">
             <h3>A foreign language</h3>
             <p>I would love to learn French as this is a language I would like to learn as I want to one day go to France. I want to visit the Louvre and see the Mona Lisa, a Leonardo Da Vinci painting. So being able to converse in that language will help when I visit the city.</p>
             <h1>Basic French Phrases</h1>
@@ -74,40 +67,37 @@
                 </tr>
             </table>
         </div>
-    </section>
-    <section>
-
-        <h3>Historical Places</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                <div class="text-dev">
-                    <h1>Place 1</h1>
-                    <p>Kliptown is best known as the location for the 1955 Congress of the People. On June 26, 1955, 3,000 representatives of all South African racial and ethnic groups gathered in the centre of Kliptown.</p>
-                </div>
-                <div class="image-dev">
-                    <img src="Kliptown.jpg" width="180">
-                </div>
-            </div>
-            <div class="historical">
-                <div class="text-dev">
-                    <h1>Place 2</h1>
-                    <p>The Hector Pieterson Museum is located in Orlando West, Soweto, South Africa. It is named in honor of Hector Pieterson, a schoolboy shot and killed during the 1976 Soweto uprising against apartheid.</p>
-                </div>
-                <div class="image-dev">
-                    <img src="hector-pieterson-museum-3 (1).jpg" width="180">
-                </div>
-            </div>
-            <div class="historical">
-                <div class="text-dev">
-                    <h1>Place 3</h1>
-                    <p>Regina Mundi, designed by architect Anthony Noel Errol Slaven, is the largest Roman Catholic church in South Africa. It is located in Rockville, Soweto, Johannesburg.</p>
-                </div>
-                <div class="image-dev">
-                    <img src="Regina.jpg" width="180">
-                </div>
-            </div>
         </div>
-    </section> 
+                <div class="row">
+                    <h2 class="col-12" style="background-color: burlywood;">Historical places</h2>
+                    <div>
+                        <div class="row">
+        
+                            <div class="col-4">
+                                <h3>Kliptown</h3>
+                                <div class="row">
+                                    <p class="col-6-sm font-light" style="font-size: smaller;" style="text-align: justify;">Kliptown is best known as the location for the 1955 Congress of the People. On June 26, 1955,3,000 representatives of all South African racial and ethnic groups gathered in the centre of Kliptown.</p>
+                                    <img class="col-6-sm" src="Kliptown.jpg">
+                                </div>
+                            </div>
+        
+                            <div class="col-4">
+                                <h3>hector-Pieterson</h3>
+                                <div class="row">
+                            <p class="col-6-sm font-light mid-text" style="font-size: smaller;" style="text-align: justify;">The Hector Pieterson Museum is located in Orlando West, Soweto, South Africa. It is named in honor of Hector Pieterson, a schoolboy shot and killed during the 1976 Soweto uprising against apartheid.</p>
+                                    <img class="col-6-sm" src="hector-pieterson-museum-3 (1).jpg">
+                                </div>
+                            </div>
+        
+                            <div class="col-4">
+                                <h3>Regina Mundi</h3>
+                                <div class="row">
+                                    <p class="col-6-sm font-light" style="font-size: smaller;" style="text-align: justify;">Regina Mundi, designed by architect Anthony Noel Errol Slaven, is the largest Roman Catholic church in South Africa. It is located in Rockville, Soweto, Johannesburg.</p>
+                                    <img class="col-6-sm" src="Regina.jpg"">
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
 </body>
 </html>
