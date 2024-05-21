@@ -4,12 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Name {
-    background-color: blueviolet;
-    border-radius: 1rem;
-    padding: 20px;
-    margin-bottom: 20px;
-}
+
 
 .container {
     background-color: antiquewhite;
